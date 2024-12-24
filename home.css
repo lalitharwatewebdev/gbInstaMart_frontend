@@ -22,3 +22,24 @@
     top: 54%;
     left: 20px;
 }
+
+
+.managing-risk{
+    background-image: url("./images/home/managing_risk.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.button-radius{
+    border: 2px solid #000;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #E06B74;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
