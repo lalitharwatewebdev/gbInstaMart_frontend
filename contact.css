@@ -1,0 +1,96 @@
+/* contact hero starts */
+.contact-hero{
+    background-image: url('./images/contact/contact-title.png');
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-title{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    text-shadow: 2px 2px black;
+}
+
+/* contact-hero-image{
+    background-position: center center;
+} */
+/* contact hero ends */
+
+
+
+.contact-form .form-control{
+    border-radius: 0px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding-left: 0px;
+}
+
+.contact-form .form-control:focus{
+    box-shadow: none;
+    border-bottom-color: #252525;
+}
+
+.contact-form .form-control::placeholder{
+    color: #D9D9D9;
+}
+
+/* accordion starts */
+.accordion-header{
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+    color: #252525;
+}
+
+.accordion-button::after {
+    content: '+';
+    font-size: 30px;
+    font-weight: bold; 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-image: none;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    content: '-';
+    transform: rotate(180deg); 
+    background-image: none;
+}
+
+
+.accordion-item{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.accordion-button{
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+/* accordion ends */
+
+
+/* media query starts */
+@media only screen and (max-width: 600px) {
+        .contact-hero{
+            height: 150px;
+        }
+  }
+/* media query ends */
