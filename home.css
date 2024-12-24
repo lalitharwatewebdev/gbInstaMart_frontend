@@ -1,0 +1,24 @@
+.card{
+    border-color: transparent;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+
+.img-container{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transform: scale(1.7);
+    /* background-position: top top; */
+    object-position: top top;
+}
+
+.card-btn{
+    border-radius: 0px;
+    border-top-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    top: 54%;
+    left: 20px;
+}
