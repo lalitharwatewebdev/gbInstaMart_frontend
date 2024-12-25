@@ -59,3 +59,15 @@
     background-repeat: no-repeat;
     object-fit: cover;
 }
+
+.choose{
+    overflow: hidden;
+    background: url("./images/home/choose.png");
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.choose-mobile{
+    background-color: #2D333D   ;
+}
