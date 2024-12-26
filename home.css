@@ -71,3 +71,15 @@
 .choose-mobile{
     background-color: #2D333D   ;
 }
+
+.carousel-caption{
+    left: 5%;
+    right: 5%;
+    bottom: 0%;
+}
+
+.carousel-caption p{
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+.
