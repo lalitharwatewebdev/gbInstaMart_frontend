@@ -170,6 +170,7 @@ a.text-primary:hover, a.text-primary:focus {
 
 .news-letter .form-control{
     box-shadow: none;
+    border-radius: 0px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-color: transparent;
@@ -183,6 +184,7 @@ a.text-primary:hover, a.text-primary:focus {
 .sign-up-btn{
     margin-left: -20px;
     /* font-size: 3px; */
+    border-radius: 0px;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
