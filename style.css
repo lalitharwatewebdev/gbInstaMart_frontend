@@ -2,6 +2,12 @@
 
 body{
     font-family: "Inter", serif;
+    overflow-x:hidden;
+}
+
+
+footer a {
+    color: black !important;
 }
 
 
